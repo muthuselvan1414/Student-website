@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Student Website</h1>
+    <p>Student Name: Sp.Muthuselvan</p>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#department">Department</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#art">art</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="profile">
+    <div class="card">
+        <h2>My Profile</h2>
+        <p>Hello! I'm Muthuselvan, a student at Sree Sakthi engineering college. I'm currently in 6th grade and I love DS and programming.</p>
+    </div>
+</section>
+
+<section id="department">
+    <div class="card">
+        <h2>My department</h2>
+        <p>I'm CSE department.</p>
+    </div>
+</section>
+<section id="subjects">
+    <div class="card">
+        <h2>My Subjects</h2>
+        <ul>
+            <li>Mathematics</li>
+            <li>Data structure</li>
+            <li>DPSD</li>
+            <li>Placement</li>
+            <li>ESS</li>
+            <li>CA</li>
+            <li>Mini project</li>
+        </ul>
+    </div>
+</section>
+<section id="art">
+    <div class="card">
+        <h2>My Art</h2>
+        <img src="https://i.ytimg.com/vi/BLxPjp_DDyQ/maxresdefault.jpg"alt="Art">
+         <img src="https://i.pinimg.com/originals/b5/ee/3f/b5ee3ff6a23fe5bb59624f1c2e7dcbb6.jpg"alt="Art">
+        <p>Insta ID: muthuselvan_artist</p>
+         <p>Follow for more art related contents</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact Me</h2>
+        <p>Email: muthuselvan@gmail.com</p>
+        <p>Phone: +91 9629487302</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Muthuselvan | Student Website</p>
+</footer>
+
+</body>
+</html>
